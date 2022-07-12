@@ -30,8 +30,8 @@ const BikeBlockList = () => {
         setCurrentIndex(-1);
     };
 
-    const setActiveBike = (tutorial, index) => {
-        setCurrentBike(tutorial);
+    const setActiveBike = (bike, index) => {
+        setCurrentBike(bike);
         setCurrentIndex(index);
     };
 

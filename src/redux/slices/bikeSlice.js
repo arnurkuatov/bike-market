@@ -55,7 +55,7 @@ const bikeSlice = createSlice({
             return [...action.payload];
         },
         [updateBike.fulfilled]: (state, action) => {
-            const index = state.findIndex(tutorial => tutorial.id === action.payload.id);
+            const index = state.findIndex(item => item.id === action.payload.id);
             state[index] = {
                 ...state[index],
                 ...action.payload,

@@ -70,7 +70,7 @@ const Bike = () => {
             });
     };
 
-    const removeTutorial = () => {
+    const removeBike = () => {
         dispatch(deleteBike({ id: currentBike.id }))
             .unwrap()
             .then(() => {
@@ -116,7 +116,7 @@ const Bike = () => {
                         >
                             Добавить товар
                         </button>
-                    <button className="badge badge-danger mr-2" onClick={removeTutorial}>
+                    <button className="badge badge-danger mr-2" onClick={removeBike}>
                         Удалить
                     </button>
 
@@ -131,8 +131,6 @@ const Bike = () => {
                 </div>
             ) : (
                 <div>
-                    <br />
-                    <p>Please click on a Tutorial...</p>
                 </div>
             )}
         </div>
