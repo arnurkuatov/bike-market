@@ -5,8 +5,8 @@ const initialState = [];
 
 export const createBike = createAsyncThunk(
     "bike/create",
-    async ({ name, price }) => {
-        const res = await BikeDataService.create({ name, price });
+    async ({ name, price, size }) => {
+        const res = await BikeDataService.create({ name, price, size });
         return res.data;
     }
 );

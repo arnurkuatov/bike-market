@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
+import { useNavigate } from 'react-router-dom';
 import {createBike} from "../../redux/slices/bikeSlice";
 
 const AddBike = () => {
+    const navigate = useNavigate();
     const initialBikeState = {
         id: null,
         name: "",
@@ -20,12 +22,11 @@ const AddBike = () => {
     };
 
     const saveBike = () => {
-        const { name, price } = bike;
+        const { name, price, size } = bike;
 
-        dispatch(createBike({ name, price }))
+        dispatch(createBike({ name, price, size }))
             .unwrap()
             .then(data => {
-                console.log(data);
                 setBike({
                     id: data.id,
                     name: data.name,
@@ -33,6 +34,7 @@ const AddBike = () => {
                     size: data.size
                 });
                 setSubmitted(true);
+                navigate('/bikes')
             })
             .catch(e => {
                 console.log(e);
@@ -48,7 +50,7 @@ const AddBike = () => {
         <div className="submit-form">
             {submitted ? (
                 <div>
-                    <h4>Вы успешно отправили!</h4>
+                    <h4>Вы успешно добавили!</h4>
                     <button className="btn btn-success" onClick={newBike}>
                         Добавить
                     </button>
@@ -60,11 +62,11 @@ const AddBike = () => {
                         <input
                             type="text"
                             className="form-control"
-                            id="title"
+                            id="name"
                             required
                             value={bike.name || ''}
-                            onChange={handleInputChange}
-                            name="title"
+                            onChange={event => handleInputChange(event)}
+                            name="name"
                         />
                     </div>
 
@@ -73,11 +75,23 @@ const AddBike = () => {
                         <input
                             type="text"
                             className="form-control"
-                            id="description"
+                            id="price"
                             required
                             value={bike.price || ''}
-                            onChange={handleInputChange}
-                            name="description"
+                            onChange={event => handleInputChange(event)}
+                            name="price"
+                        />
+                    </div>
+                    <div className="form-group">
+                        <label htmlFor="description">Размер</label>
+                        <input
+                            type="text"
+                            className="form-control"
+                            id="size"
+                            required
+                            value={bike.size || ''}
+                            onChange={event => handleInputChange(event)}
+                            name="size"
                         />
                     </div>
 
