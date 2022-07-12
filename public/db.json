@@ -1,0 +1,94 @@
+{
+  "bikes": [
+    {
+      "id": "KZ19S2603SPT",
+      "name": "STELS SUPER",
+      "price": "10999099999",
+      "class": "Горный",
+      "size": "19",
+      "numberOfSpeed": "21",
+      "maxWeight": "140",
+      "img": "https://unsplash.com/photos/gsWcSMpWugM"
+    },
+    {
+      "id": "KZ19S2604SPT",
+      "name": "ВЕЛОСИПЕД PHOENIX NEW XGT",
+      "price": "59990",
+      "class": "Горный",
+      "size": "18",
+      "numberOfSpeed": "21",
+      "maxWeight": "110",
+      "img": "https://unsplash.com/photos/-SFel5f_VOw"
+    },
+    {
+      "id": "KZ19S2605SPT",
+      "name": "ВЕЛОСИПЕД ГОРОДСКОЙ PHOENIX TP-2608-13A CITYBIKE WHITE",
+      "price": "99990",
+      "class": "Горный",
+      "size": "21",
+      "numberOfSpeed": "21",
+      "maxWeight": "100",
+      "img": "https://unsplash.com/photos/IYU2eCw9iek"
+    },
+    {
+      "id": "KZ19S2606SPT",
+      "name": "ВЕЛОСИПЕД PHOENIX MAGIC 4.0",
+      "price": "289990",
+      "class": "Горный",
+      "size": "23",
+      "numberOfSpeed": "21",
+      "maxWeight": "170",
+      "img": "https://unsplash.com/photos/uAK3jJr6md4"
+    },
+    {
+      "id": "KZ19S2612SPT",
+      "name": "ВЕЛОСИПЕД PHOENIX TORNADO 21SP",
+      "price": "89990",
+      "class": "Горный",
+      "size": "17",
+      "numberOfSpeed": "21",
+      "maxWeight": "120",
+      "img": "https://unsplash.com/photos/OZh_OBP_fao"
+    },
+    {
+      "id": "KZ19S2613SPT",
+      "name": "ВЕЛОСИПЕД PHOENIX TORNADO PLUS 21SP",
+      "price": "109990",
+      "class": "Горный",
+      "size": "19",
+      "numberOfSpeed": "21",
+      "maxWeight": "140",
+      "img": "https://unsplash.com/photos/RKU4zSFitWM"
+    },
+    {
+      "id": "KZ19S2614SPT",
+      "name": "ВЕЛОСИПЕД PHOENIX NEW XGT",
+      "price": "59990",
+      "class": "Горный",
+      "size": "18",
+      "numberOfSpeed": "21",
+      "maxWeight": "110",
+      "img": "https://unsplash.com/photos/vZAk_n9Plfc"
+    },
+    {
+      "id": "KZ19S2615SPT",
+      "name": "ВЕЛОСИПЕД ГОРОДСКОЙ PHOENIX TP-2608-13A CITYBIKE WHITE",
+      "price": "99990",
+      "class": "Горный",
+      "size": "21",
+      "numberOfSpeed": "21",
+      "maxWeight": "100",
+      "img": "https://unsplash.com/photos/sw9Vozf6j_4"
+    },
+    {
+      "id": "KZ19S2616SPT",
+      "name": "ВЕЛОСИПЕД PHOENIX MAGIC 4.0",
+      "price": "289990",
+      "class": "Горный",
+      "size": "23",
+      "numberOfSpeed": "21",
+      "maxWeight": "170",
+      "img": "https://unsplash.com/photos/yjAFnkLtKY0"
+    }
+  ]
+}

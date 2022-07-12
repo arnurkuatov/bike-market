@@ -106,7 +106,7 @@ const BikeBlockList = () => {
                             <label>
                                 <strong>Цена:</strong>
                             </label>{" "}
-                            {currentBike.price}
+                            {currentBike.price} тг
                         </div>
                         <div>
                             <label>

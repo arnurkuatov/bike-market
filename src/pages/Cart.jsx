@@ -33,7 +33,7 @@ const Cart = () => {
                 <div>
                     <div className="card-footer">
                         <span> Всего велосипедовв: <b>{totalCount} шт.</b> </span>
-                        <span> Сумма заказа: <b>{totalPrice}</b> </span>
+                        <span> Сумма заказа: <b>{totalPrice} тг</b> </span>
                     </div>
                     <div className="card-group">
                         <Link to="/bikes" className="button button--outline button--add go-back-btn">

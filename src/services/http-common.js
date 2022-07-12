@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export default axios.create({
-    baseURL: "https://my-json-server.typicode.com/arnurkuatov/bikes-db",
+    baseURL: "http://localhost:3001",
     headers: {
         "Content-type": "application/json"
     }

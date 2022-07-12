@@ -88,23 +88,23 @@ const Bike = () => {
                     <h4>Велик</h4>
                     <form>
                         <div className="form-group">
-                            <label htmlFor="title">Название</label>
+                            <label htmlFor="name">Название</label>
                             <input
                                 type="text"
                                 className="form-control"
-                                id="title"
-                                name="title"
+                                id="name"
+                                name="name"
                                 value={currentBike.name}
                                 onChange={handleInputChange}
                             />
                         </div>
                         <div className="form-group">
-                            <label htmlFor="description">Цена</label>
+                            <label htmlFor="price">Цена</label>
                             <input
                                 type="text"
                                 className="form-control"
-                                id="description"
-                                name="description"
+                                id="price"
+                                name="price"
                                 value={currentBike.price}
                                 onChange={handleInputChange}
                             />

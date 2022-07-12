@@ -4,6 +4,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+## Для запуска фэйк АПИ нужно установить через команду:
+### `npm install`
+## Для старта АПИ нужно ввести команду:
+### `npm run json-server`
+
 In the project directory, you can run:
 
 ### `npm start`
